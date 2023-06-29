@@ -3,7 +3,7 @@
 
 ![alt text][logo]
 
-[logo]: https://cdn.discordapp.com/attachments/895349507326357564/1124106346455900290/logomini.png "Logo Title Text 2"
+[logo]: https://cdn.discordapp.com/attachments/895349507326357564/1124106693459054652/Nowy_projekt_30.png "Logo Title Text 2"
 
 [Our Discord](https://discord.gg/matKK2Zhrf)
 
