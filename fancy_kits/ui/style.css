@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(20, 20, 20);
+    display: none;
+}
+
+#kits-main {
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 20vw;
+    height: 25vw;
+    border-radius: 0.7vw;
+    border: 0.2vw solid #00A3FF;
+    background: linear-gradient(223deg, rgba(0, 163, 255, 0.21) 0%, rgba(0, 163, 255, 0.38) 100%);
+}
+
+#kit_starttxt {
+    position: absolute;
+    font-size: 2vw;
+    font-weight: 700;
+    color: #00A3FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#kit_start_button {
+    position: absolute;  
+    border-radius: 0.7vw;
+    border: 0.2vw solid #00A3FF;
+    background: linear-gradient(223deg, rgba(0, 163, 255, 0.21) 0%, rgba(0, 163, 255, 0.38) 100%);
+    width: 16vw;
+    height: 4.5vw;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1.5vw;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+    
+}
+
+#kitstartimg {
+    position: absolute;
+    width: 27.8vw;
+    height: auto;
+    top: 44.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#kits-booster {
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+width: 20vw;
+height: 25vw;
+border-radius: 0.7vw;
+border: 0.2vw solid #BD00FF;
+background: linear-gradient(223deg, rgba(221, 0, 255, 0.247) 0%, rgba(234, 0, 255, 0.363) 100%); 
+}
+
+#kit_boostertxt {
+    position: relative;
+    font-size: 2vw;
+    font-weight: 700;
+    color: #BD00FF;
+    top: 10%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+}
+
+#kit_booster_button {
+    position: absolute;  
+    border-radius: 0.7vw;
+    border: 0.2vw solid #BD00FF;
+    background: linear-gradient(223deg, rgba(221, 0, 255, 0.247) 0%, rgba(234, 0, 255, 0.363) 100%); 
+    width: 16vw;
+    height: 4.5vw;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1.5vw;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+}
+
+#kitboosterimg {
+    position: absolute;
+    width: 27.8vw;
+    height: auto;
+    top: 44.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+#kits-vip {
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 20vw;
+    height: 25vw;
+    border-radius: 0.7vw;
+    border: 0.2vw solid #FAFF00;
+        background: linear-gradient(223deg, rgba(250, 246, 0, 0.26) 0%, rgba(250, 246, 0, 0.363) 100%); 
+    }
+    
+    #kit_viptxt {
+        position: absolute;
+        font-size: 2vw;
+        font-weight: 700;
+        color: #FAFF00;
+        display: flex;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+    
+    #kit_vip_button {
+        position: absolute;  
+        border-radius: 0.7vw;
+        border: 0.2vw solid #FAFF00;
+        background: linear-gradient(223deg, rgba(250, 246, 0, 0.26) 0%, rgba(250, 246, 0, 0.363) 100%); 
+        width: 16vw;
+        height: 4.5vw;
+        color: #FFF;
+        font-weight: 600;
+        font-size: 1.5vw;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: 0.5s;
+    }
+    
+    #kitvipimg {
+        position: absolute;
+        width: 20.8vw;
+        height: auto;
+        top: 52.7%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #kit_start_button:hover {
+        background: linear-gradient(223deg, rgba(0, 162, 255, 0.555) 0%, rgba(0, 162, 255, 0.555) 100%);
+        transition: 0.5s;
+    }
+
+
+    #kit_booster_button:hover {
+        background: linear-gradient(223deg, rgba(221, 0, 255, 0.555) 0%, rgba(234, 0, 255, 0.555) 100%); 
+        transition: 0.5s;
+    }
+
+    #kit_vip_button:hover {
+        background: linear-gradient(223deg, rgba(250, 246, 0, 0.555) 0%, rgba(250, 246, 0, 0.555) 100%);   
+        transition: 0.5s;
+    }
+
+    h1 {
+        position: absolute;
+        color: #737373;
+        font-size: 0.6vw;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        top: 51vw;
+        left: 87.3vw;
+    }
+    
+    h2 {
+        font-size: 3vw;
+        position: absolute;
+        font-weight: 600;
+        color: white;
+        left: 38.5vw;
+        top: 0.1vw;
+    }
