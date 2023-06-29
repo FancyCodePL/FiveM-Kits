@@ -1,7 +1,7 @@
 # FiveM-Kits
-###  Fivem script for starter kits and discord role id, 100% customizable
+###  ![s][logo] Fivem script for starter kits and discord role id, 100% customizable
 
-![alt text][logo]
+
 
 [logo]: https://cdn.discordapp.com/attachments/895349507326357564/1124106693459054652/Nowy_projekt_30.png "Logo Title Text 2"
 
