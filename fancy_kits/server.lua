@@ -1,4 +1,4 @@
-local BotToken = 'MTEyMDc3NjgyMDQ2MDEwNTg5MA.GoyZ4b.IS1TUuqDb65fRalYOBgUCuhX78zaBkNfzQzX_s'
+local BotToken = 'token_discord'
 local DiscordServerID = 1090983459947819030
 
 local VipRole = 1099075168212623431
