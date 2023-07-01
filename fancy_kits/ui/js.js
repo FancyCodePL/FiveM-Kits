@@ -14,7 +14,7 @@ $(document).ready(function() {
 
     $(document).on('keyup', function(e) {
         
-        if (e.key == "Escape") $.post('http://fancy_kits/closeMenu', JSON.stringify({})), $('body').fadeOut(500);
+        if (e.key == "Escape") $.post('`https://${GetParentResourceName()}/closeMenu', JSON.stringify({})), $('body').fadeOut(500);
     });
     
 
@@ -25,11 +25,11 @@ $(document).ready(function() {
 
       $('#kit_booster_button').click(function() {
         $('body').fadeOut(500);
-        $.post('http://fancy_kits/kitBooster', JSON.stringify({}))
+        $.post('`https://${GetParentResourceName()}/kitBooster', JSON.stringify({}))
       });
       $('#kit_vip_button').click(function() {
         $('body').fadeOut(500);
-        $.post('http://fancy_kits/kitVip', JSON.stringify({}))
+        $.post('`https://${GetParentResourceName()}/kitVip', JSON.stringify({}))
       });
       
 })
