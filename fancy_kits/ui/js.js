@@ -14,22 +14,22 @@ $(document).ready(function() {
 
     $(document).on('keyup', function(e) {
         
-        if (e.key == "Escape") $.post('`https://${GetParentResourceName()}/closeMenu', JSON.stringify({})), $('body').fadeOut(500);
+        if (e.key == "Escape") $.post(`https://${GetParentResourceName()}/closeMenu`, JSON.stringify({})), $('body').fadeOut(500);
     });
     
 
     $('#kit_start_button').click(function() {
         $('body').fadeOut(500);
-        $.post('http://fancy_kits/kitStarter', JSON.stringify({}))
+        $.post(`https://${GetParentResourceName()}/kitStarter`, JSON.stringify({}))
       });
 
       $('#kit_booster_button').click(function() {
         $('body').fadeOut(500);
-        $.post('`https://${GetParentResourceName()}/kitBooster', JSON.stringify({}))
+        $.post(`https://${GetParentResourceName()}/kitBooster`, JSON.stringify({}))
       });
       $('#kit_vip_button').click(function() {
         $('body').fadeOut(500);
-        $.post('`https://${GetParentResourceName()}/kitVip', JSON.stringify({}))
+        $.post(`https://${GetParentResourceName()}/kitVip`, JSON.stringify({}))
       });
       
 })
